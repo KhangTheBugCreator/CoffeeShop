@@ -475,3 +475,72 @@ a {
 .dot.active:hover {
   cursor: default;
 }
+/* ==========================footer============================= */
+.footer-page {
+  background: #30261c;
+}
+
+.footer-page .container {
+  padding-top: 96px;
+  padding-right: 150px;
+  padding-left: 50px;
+  padding-bottom: 95px;
+  min-width: 1460px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  gap: 115px;
+}
+.footer-page .logo .brand-logo {
+  width: 120px;
+  object-fit: cover;
+}
+.footer-page .columns {
+  display: flex;
+  gap: 115px;
+  align-items: center;
+}
+.footer-page .columns .item .title {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 12px;
+}
+.footer-page .columns .item ul {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-page .columns .item ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  text-align: left;
+}
+.footer-page .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  /* align-items: center; */
+  /* gap: 35px; */
+  align-items: top;
+}
+.footer-page .social .title {
+  color: white;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 35px;
+}
+.footer-page .social ul {
+  display: flex;
+  gap: 12px;
+}
+.footer-page .social ul li a img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
