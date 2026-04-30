@@ -10,7 +10,7 @@
 
 👤 **Khang**
 
-- Github: [@KhangTheBugCreator@526](https://github.com/KhangTheBugCreator@526)
+- Github: [@KhangTheBugCreator](https://github.com/KhangTheBugCreator)
 
 ## Show your support
 
@@ -18,6 +18,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📁 Cấu trúc thư mục
 
+```
 .
 ├── index.html
 ├── structure.txt
@@ -60,3 +61,4 @@ Give a ⭐️ if this project helped you!
 ├── espresso-surrounded-by-scattered-coffee-beans-dark-surface 1@2x.png
 
 └── mot_dong_ca_phe.png
+```
