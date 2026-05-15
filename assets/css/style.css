@@ -338,10 +338,11 @@ a {
 .popular .More {
   padding-top: 30px;
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
+  padding-right: 140px;
 }
 .popular .More .btn {
-  margin-right: 140px;
+  margin-right: 0;
   font-size: 2rem;
   line-height: 50px;
 }
