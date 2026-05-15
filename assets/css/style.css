@@ -3,6 +3,7 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 1.6rem;
@@ -105,6 +106,7 @@ a {
   height: 66px;
   position: relative;
 }
+
 .header .search-box .Round-search {
   position: absolute;
   top: 0;
@@ -186,7 +188,7 @@ a {
   min-width: 170px;
   font-size: 1.8rem;
 }
-/* ========================popular======================= */
+/* ========================menu======================= */
 .menu {
   background: #e2d9c8;
 }
@@ -332,6 +334,24 @@ a {
 }
 .coffee-list .coffee-item .footer .btn:hover {
   background: #2a0000;
+}
+.popular .More {
+  padding-top: 30px;
+  display: flex;
+  justify-content: right;
+}
+.popular .More .btn {
+  margin-right: 140px;
+  font-size: 2rem;
+  line-height: 50px;
+}
+.popular .More .btn:hover {
+  color: #430101;
+  background-color: #dec89e;
+  box-shadow: -1px 9px 17px 1px rgba(0, 0, 0, 0.89);
+}
+.popular {
+  padding-bottom: 64px;
 }
 /*================= popular 2 ===========*/
 .popular.popular2 {
