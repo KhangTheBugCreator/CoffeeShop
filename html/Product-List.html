@@ -71,7 +71,29 @@
         </div>
       </div>
       <!-- product list -->
-      <div id="section1"><div id="productList"></div></div>
+      <div id="section1">
+        <div id="productList"></div>
+
+        <!-- them -->
+        <div class="btn" onclick="openAddModal()">Thêm Sản Phẩm</div>
+        <div id="addModal" class="modal">
+          <div class="modalBox">
+            <h2>Thêm sản phẩm</h2>
+
+            <input id="productName" type="text" placeholder="Tên sản phẩm" />
+            <input id="productPrice" type="number" placeholder="Giá" />
+            <input
+              id="productImage"
+              type="text"
+              placeholder="URL ảnh (Google Drive, Imgur...)"
+            />
+            <textarea id="productDesc" placeholder="Mô tả"></textarea>
+
+            <button onclick="addProduct()">Lưu</button>
+            <button onclick="closeAddModal()">Hủy</button>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- footer -->
     <footer class="footer-page">

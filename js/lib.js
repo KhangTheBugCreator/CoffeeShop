@@ -1,4 +1,4 @@
-const products = [
+const defaultProducts = [
   {
     id: 1,
     name: "Classic Cappuccino",
@@ -81,21 +81,72 @@ const products = [
   },
 ];
 
-const productList = document.getElementById("productList");
+// load Default ra mot mang products de modify
+if (!localStorage.getItem("products")) {
+  localStorage.setItem("products", JSON.stringify(defaultProducts));
+}
 
+let products = JSON.parse(localStorage.getItem("products"));
+
+function saveProducts() {
+  localStorage.setItem("products", JSON.stringify(products));
+}
+//load all san pham
+const productList = document.getElementById("productList");
 function loadAllProduct() {
   productList.innerHTML = "";
   for (const i of products) {
     productList.innerHTML += `
         <div class="productItem">
-            <img class="imageProduct"src="${i.image}">
+            <img class="imageProduct" src="${i.image}" alt="${i.name}">
             <h3 class="nameProduct">${i.name}</h3>
             <div class="Price"> 
-            Price: <strong>${i.price.toLocaleString()} VND</strong> 
+            Giá: <strong>${i.price.toLocaleString()} VND</strong> 
             </div>
-            <p class="desc line-clamp line-7">${i.desc}</p>
-            <a class="btn" href="${i.link}?id=${i.id}">Detail...</a>
+            <p class="desc line-clamp line-5">${i.desc}</p>
+            <a target="_blank" class="btn" href="${i.link}?id=${i.id}#section1">Chi tiết...</a>
         </div>
     `;
   }
+}
+//them san pham
+const addModal = document.getElementById("addModal");
+
+function openAddModal() {
+  addModal.classList.add("show");
+}
+
+function closeAddModal() {
+  addModal.classList.remove("show");
+}
+
+function addProduct() {
+  const name = document.getElementById("productName").value;
+  const price = document.getElementById("productPrice").value;
+  const image = document.getElementById("productImage").value;
+  const desc = document.getElementById("productDesc").value;
+
+  if (!name || !price || !image || !desc) {
+    alert("Vui lòng nhập đầy đủ thông tin");
+    return;
+  }
+
+  const newProduct = {
+    id: Date.now(), //tao bien random theo thoi gian de dam bao ko bi trung
+    name: name,
+    image: image,
+    price: Number(price),
+    link: "../html/detail.html",
+    desc: desc,
+  };
+
+  products.push(newProduct);
+  saveProducts();
+  loadAllProduct();
+  closeAddModal();
+
+  name.value = "";
+  price.value = "";
+  image("productImage").value = "";
+  desc("productDesc").value = "";
 }
