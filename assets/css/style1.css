@@ -301,7 +301,9 @@ a {
 }
 #productList .productItem .desc {
   font-size: 1.6rem;
-  line-height: 20px;
-  height: 137px;
+  line-height: 25px;
+  height: 180px;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 15px;
+  font-weight: 500;
 }
