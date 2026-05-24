@@ -33,6 +33,7 @@ a {
 .btn:hover {
   cursor: pointer;
   opacity: 90%;
+  box-shadow: 2px 2px 16px 2px #000000;
 }
 .line-clamp {
   display: -webkit-box;
@@ -50,7 +51,7 @@ a {
   -webkit-line-clamp: var(--line-clamp, 7);
 }
 .break-all {
-  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 /* =============header============= */
 .header {
@@ -269,7 +270,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items:start;
+  align-items: start;
 }
 
 .detailImage {

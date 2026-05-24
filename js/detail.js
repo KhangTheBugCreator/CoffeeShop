@@ -17,7 +17,7 @@ if (product) {
           Giá: <strong>${product.price.toLocaleString()}</strong> VND
         </p>
 
-        <p class="detailDesc">
+        <p class="detailDesc break-all">
           ${product.desc}
         </p>
 

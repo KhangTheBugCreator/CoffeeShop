@@ -25,10 +25,10 @@
           <nav class="nav">
             <ul>
               <li>
-                <a href="#">TRANG CHỦ</a>
+                <a href="../index.html">TRANG CHỦ</a>
               </li>
               <li>
-                <a href="#">SẢN PHẨM</a>
+                <a href="#section1">SẢN PHẨM</a>
               </li>
               <li>
                 <a href="#">LIÊN HỆ</a>
@@ -73,12 +73,13 @@
       <!-- product list -->
       <div id="section1">
         <div id="productList"></div>
-
+        <!-- bat tat chinh sua -->
+        <div onclick="batTatEdit()" class="btn edit">Chỉnh sửa</div>
         <!-- them -->
-        <div class="btn" onclick="openAddModal()">Thêm Sản Phẩm</div>
+        <div class="btn addProduct" onclick="openAddModal()">Thêm Sản Phẩm</div>
         <div id="addModal" class="modal">
           <div class="modalBox">
-            <h2>Thêm sản phẩm</h2>
+            <h1>Thêm sản phẩm</h1>
 
             <input id="productName" type="text" placeholder="Tên sản phẩm" />
             <input id="productPrice" type="number" placeholder="Giá" />

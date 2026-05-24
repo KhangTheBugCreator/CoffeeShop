@@ -47,47 +47,47 @@ const defaultProducts = [
     link: "../html/detail.html",
     desc: "Iced Americano là loại cà phê đơn giản nhưng đầy sảng khoái được pha từ espresso và nước lạnh cùng đá viên. Thức uống có hương vị cà phê đậm nhưng hậu vị nhẹ và thanh mát, được nhiều người yêu thích mỗi ngày. Đây là lựa chọn rất phổ biến trong thời tiết nóng vì mang lại cảm giác tươi mới và tỉnh táo. Iced Americano chứa ít sữa và đường nên phù hợp với những ai muốn thưởng thức hương vị nguyên bản của hạt cà phê. Mùi thơm mạnh cùng vị đắng nhẹ tạo nên trải nghiệm cà phê hiện đại và thư giãn.",
   },
-  {
-    id: 7,
-    name: "Matcha Latte",
-    image: "../assets/img/coffee7.jpg",
-    price: 72000,
-    link: "../html/detail.html",
-    desc: "Matcha Latte là thức uống mềm mịn được làm từ bột matcha Nhật Bản cao cấp và sữa tươi. Hương vị trà xanh tự nhiên hòa quyện cùng vị ngọt béo của sữa tạo nên cảm giác cân bằng và dễ chịu. Matcha Latte không chỉ thơm ngon mà còn mang lại cảm giác thư giãn nhờ hương thơm nhẹ nhàng đặc trưng. Dù uống nóng hay lạnh, thức uống này vẫn rất được học sinh và giới trẻ yêu thích. Màu xanh đẹp mắt cùng kết cấu mịn màng giúp Matcha Latte trở thành một trong những món uống nổi bật tại quán cà phê hiện đại.",
-  },
-  {
-    id: 8,
-    name: "Brown Sugar Milk Coffee",
-    image: "../assets/img/coffee8.jpg",
-    price: 78000,
-    link: "../html/detail.html",
-    desc: "Brown Sugar Milk Coffee là thức uống ngọt béo kết hợp giữa espresso đậm vị, sữa tươi và siro đường nâu đặc sánh. Hương vị caramel của đường nâu mang lại cảm giác ấm áp và vị ngọt hài hòa với cà phê mạnh. Thức uống thường được phục vụ cùng đá lạnh và có những vệt đường nâu đẹp mắt quanh ly theo phong cách quán cà phê hiện đại. Kết cấu mịn cùng hương thơm dịu khiến món này rất được giới trẻ yêu thích. Đây là lựa chọn hoàn hảo để thư giãn, học tập hoặc tận hưởng khoảng thời gian nghỉ ngơi ngọt ngào.",
-  },
-  {
-    id: 9,
-    name: "Espresso Macchiato",
-    image: "../assets/img/coffee9.jpg",
-    price: 68000,
-    link: "../html/detail.html",
-    desc: "Espresso Macchiato là loại cà phê Ý cổ điển được pha từ một shot espresso mạnh cùng một lớp bọt sữa nhỏ phía trên. Từ 'macchiato' có nghĩa là được đánh dấu, ám chỉ lớp sữa nhẹ phủ lên cà phê. Thức uống vẫn giữ được hương vị đậm và mạnh của espresso nhưng có thêm độ mềm mịn từ bọt sữa. Espresso Macchiato thường được phục vụ trong ly nhỏ và phù hợp với những ai yêu thích cà phê mạnh nhưng vẫn muốn có chút vị béo nhẹ. Mỗi ngụm đều mang lại trải nghiệm cà phê tinh tế và đầy năng lượng.",
-  },
-  {
-    id: 10,
-    name: "Chocolate Frappuccino",
-    image: "../assets/img/coffee10.jpg",
-    price: 90000,
-    link: "../html/detail.html",
-    desc: "Chocolate Frappuccino là thức uống đá xay được pha từ cà phê, chocolate, sữa và đá lạnh. Kết cấu mịn cùng hương vị chocolate đậm đà tạo nên cảm giác ngọt ngào và sảng khoái được nhiều bạn trẻ yêu thích. Phía trên thường được phủ kem tươi và sốt chocolate hấp dẫn giúp thức uống càng thêm bắt mắt. Chocolate Frappuccino rất phù hợp để thư giãn vào những ngày nóng hoặc thưởng thức cùng bạn bè tại quán cà phê. Vị ngọt béo và sự mát lạnh mang đến trải nghiệm hiện đại, vui vẻ và đầy năng lượng cho mọi khách hàng.",
-  },
+  // {
+  //   id: 7,
+  //   name: "Matcha Latte",
+  //   image: "../assets/img/coffee7.jpg",
+  //   price: 72000,
+  //   link: "../html/detail.html",
+  //   desc: "Matcha Latte là thức uống mềm mịn được làm từ bột matcha Nhật Bản cao cấp và sữa tươi. Hương vị trà xanh tự nhiên hòa quyện cùng vị ngọt béo của sữa tạo nên cảm giác cân bằng và dễ chịu. Matcha Latte không chỉ thơm ngon mà còn mang lại cảm giác thư giãn nhờ hương thơm nhẹ nhàng đặc trưng. Dù uống nóng hay lạnh, thức uống này vẫn rất được học sinh và giới trẻ yêu thích. Màu xanh đẹp mắt cùng kết cấu mịn màng giúp Matcha Latte trở thành một trong những món uống nổi bật tại quán cà phê hiện đại.",
+  // },
+  // {
+  //   id: 8,
+  //   name: "Brown Sugar Milk Coffee",
+  //   image: "../assets/img/coffee8.jpg",
+  //   price: 78000,
+  //   link: "../html/detail.html",
+  //   desc: "Brown Sugar Milk Coffee là thức uống ngọt béo kết hợp giữa espresso đậm vị, sữa tươi và siro đường nâu đặc sánh. Hương vị caramel của đường nâu mang lại cảm giác ấm áp và vị ngọt hài hòa với cà phê mạnh. Thức uống thường được phục vụ cùng đá lạnh và có những vệt đường nâu đẹp mắt quanh ly theo phong cách quán cà phê hiện đại. Kết cấu mịn cùng hương thơm dịu khiến món này rất được giới trẻ yêu thích. Đây là lựa chọn hoàn hảo để thư giãn, học tập hoặc tận hưởng khoảng thời gian nghỉ ngơi ngọt ngào.",
+  // },
+  // {
+  //   id: 9,
+  //   name: "Espresso Macchiato",
+  //   image: "../assets/img/coffee9.jpg",
+  //   price: 68000,
+  //   link: "../html/detail.html",
+  //   desc: "Espresso Macchiato là loại cà phê Ý cổ điển được pha từ một shot espresso mạnh cùng một lớp bọt sữa nhỏ phía trên. Từ 'macchiato' có nghĩa là được đánh dấu, ám chỉ lớp sữa nhẹ phủ lên cà phê. Thức uống vẫn giữ được hương vị đậm và mạnh của espresso nhưng có thêm độ mềm mịn từ bọt sữa. Espresso Macchiato thường được phục vụ trong ly nhỏ và phù hợp với những ai yêu thích cà phê mạnh nhưng vẫn muốn có chút vị béo nhẹ. Mỗi ngụm đều mang lại trải nghiệm cà phê tinh tế và đầy năng lượng.",
+  // },
+  // {
+  //   id: 10,
+  //   name: "Chocolate Frappuccino",
+  //   image: "../assets/img/coffee10.jpg",
+  //   price: 90000,
+  //   link: "../html/detail.html",
+  //   desc: "Chocolate Frappuccino là thức uống đá xay được pha từ cà phê, chocolate, sữa và đá lạnh. Kết cấu mịn cùng hương vị chocolate đậm đà tạo nên cảm giác ngọt ngào và sảng khoái được nhiều bạn trẻ yêu thích. Phía trên thường được phủ kem tươi và sốt chocolate hấp dẫn giúp thức uống càng thêm bắt mắt. Chocolate Frappuccino rất phù hợp để thư giãn vào những ngày nóng hoặc thưởng thức cùng bạn bè tại quán cà phê. Vị ngọt béo và sự mát lạnh mang đến trải nghiệm hiện đại, vui vẻ và đầy năng lượng cho mọi khách hàng.",
+  // },
 ];
 
 // load Default ra mot mang products de modify
+
 if (!localStorage.getItem("products")) {
   localStorage.setItem("products", JSON.stringify(defaultProducts));
 }
-
 let products = JSON.parse(localStorage.getItem("products"));
-
+//luu mang products ve dang chuoi va luu vao localStorage
 function saveProducts() {
   localStorage.setItem("products", JSON.stringify(products));
 }
@@ -96,6 +96,19 @@ const productList = document.getElementById("productList");
 function loadAllProduct() {
   productList.innerHTML = "";
   for (const i of products) {
+    // them 2 nut xoa va suâ
+    let adminButton = "";
+    if (isEditMode == true) {
+      adminButton += `
+        <div class="admin">
+          <div class="btn" onclick="deleteProduct(${i.id})">Xóa</div>
+          <div class="btn" onclick="editProduct(${i.id})">Sửa</div>
+        </div>
+      `;
+    } else {
+      adminButton = "";
+    }
+    //them mot product vao list
     productList.innerHTML += `
         <div class="productItem">
             <img class="imageProduct" src="${i.image}" alt="${i.name}">
@@ -103,23 +116,26 @@ function loadAllProduct() {
             <div class="Price"> 
             Giá: <strong>${i.price.toLocaleString()} VND</strong> 
             </div>
-            <p class="desc line-clamp line-5">${i.desc}</p>
-            <a target="_blank" class="btn" href="${i.link}?id=${i.id}#section1">Chi tiết...</a>
+            <p class="desc line-clamp line-5 break-all">${i.desc}</p>
+            <div class="action">
+              <a target="_blank" class="btn" href="${i.link}?id=${i.id}#section1">Chi tiết...</a>
+              ${adminButton}
+            </div>
         </div>
     `;
   }
 }
-//them san pham
+//them (form) khung nhap thong tin san pham
 const addModal = document.getElementById("addModal");
 
 function openAddModal() {
-  addModal.classList.add("show");
+  addModal.classList.add("show"); //them class showw de no hien ra man hinh
 }
 
 function closeAddModal() {
-  addModal.classList.remove("show");
+  addModal.classList.remove("show"); //nguoc lai cai tren
 }
-
+//them san pham
 function addProduct() {
   const name = document.getElementById("productName").value;
   const price = document.getElementById("productPrice").value;
@@ -130,23 +146,72 @@ function addProduct() {
     alert("Vui lòng nhập đầy đủ thông tin");
     return;
   }
+  // sua
+  if (currentEditId !== null) {
+    const product = products.find((item) => item.id === currentEditId);
 
-  const newProduct = {
-    id: Date.now(), //tao bien random theo thoi gian de dam bao ko bi trung
-    name: name,
-    image: image,
-    price: Number(price),
-    link: "../html/detail.html",
-    desc: desc,
-  };
+    product.name = name;
+    product.price = Number(price);
+    product.image = image;
+    product.desc = desc;
 
-  products.push(newProduct);
+    currentEditId = null;
+  }
+
+  // them
+  else {
+    const newProduct = {
+      id: Date.now(),
+      name: name,
+      image: image,
+      price: Number(price),
+      link: "../html/detail.html",
+      desc: desc,
+    };
+
+    products.push(newProduct);
+  }
+
   saveProducts();
   loadAllProduct();
   closeAddModal();
 
   name.value = "";
   price.value = "";
-  image("productImage").value = "";
-  desc("productDesc").value = "";
+  image.value = "";
+  desc.value = "";
+}
+// bat tat che do chinh sua
+let isEditMode = false;
+const addButton = document.querySelector(".btn.addProduct");
+function batTatEdit() {
+  isEditMode = !isEditMode; //chuyen trang thai
+  //them nut them san pham
+  if (isEditMode) {
+    addButton.classList.add("show");
+  } else {
+    addButton.classList.remove("show");
+  }
+  //load lai list neu la che do chinh sua (isEditMode) thi no se co nut sua xoa cho moi phan tu
+  loadAllProduct();
+}
+
+//xoa product
+function deleteProduct(id) {
+  products = products.filter((item) => item.id !== id);
+
+  saveProducts();
+  loadAllProduct();
+}
+//ham sua (su dung lai ham addProduct)
+let currentEditId = null;
+function editProduct(id) {
+  currentEditId = id;
+  const product = products.find((item) => item.id === id);
+  openAddModal();
+  // gia tri mac dinh cua modal la gia tri cua id dang sua
+  document.getElementById("productName").value = product.name;
+  document.getElementById("productPrice").value = product.price;
+  document.getElementById("productImage").value = product.image;
+  document.getElementById("productDesc").value = product.desc;
 }

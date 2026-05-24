@@ -33,6 +33,7 @@ a {
 .btn:hover {
   cursor: pointer;
   opacity: 90%;
+  box-shadow: 2px 2px 16px 2px #000000;
 }
 .line-clamp {
   display: -webkit-box;
@@ -47,7 +48,8 @@ a {
   -webkit-line-clamp: var(--line-clamp, 5);
 }
 .break-all {
-  word-break: break-all;
+  /* word-break: break-all; */
+  overflow-wrap: anywhere;
 }
 /* =============header============= */
 .header {

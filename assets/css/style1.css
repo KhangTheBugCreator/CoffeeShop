@@ -33,6 +33,7 @@ a {
 .btn:hover {
   cursor: pointer;
   opacity: 90%;
+  box-shadow: 2px 2px 16px 2px #000000;
 }
 .line-clamp {
   display: -webkit-box;
@@ -50,7 +51,7 @@ a {
   -webkit-line-clamp: var(--line-clamp, 7);
 }
 .break-all {
-  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 /* =============header============= */
 .header {
@@ -261,6 +262,7 @@ a {
   height: 24px;
   object-fit: cover;
 }
+/* =================================section1========================== */
 #section1 {
   padding: 50px;
   scroll-margin-top: 100px;
@@ -279,6 +281,9 @@ a {
   border-radius: 20px;
   font-family: "Outfit", sans-serif;
   /* height: 700px; */
+}
+#productList .productItem:hover {
+  box-shadow: 2px 2px 16px 2px #000000;
 }
 #productList .imageProduct {
   width: 100%;
@@ -310,8 +315,22 @@ a {
 #section1 .btn {
   margin-top: 20px;
 }
-
+#section1 .btn.edit {
+  /* margin-left: 20px; */
+}
+#productList .productItem .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* ==================modal===================== */
+.btn.addProduct {
+  display: none;
+}
+.btn.addProduct.show {
+  display: inline-block;
+  margin-left: 20px;
+}
 .modal {
   position: fixed;
   top: 0;
