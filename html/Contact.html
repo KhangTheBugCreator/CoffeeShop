@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/reset.css" />
-    <link rel="stylesheet" href="../assets/css/style1.css" />
+    <link rel="stylesheet" href="../assets/css/style3.css" />
     <!-- nhung font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,10 +28,10 @@
                 <a href="../index.html">TRANG CHỦ</a>
               </li>
               <li>
-                <a href="#section1">SẢN PHẨM</a>
+                <a href="../html/Product-List.html#section1">SẢN PHẨM</a>
               </li>
               <li>
-                <a href="Contact.html#section1">LIÊN HỆ</a>
+                <a href="#section1">LIÊN HỆ</a>
               </li>
               <!-- <li>
                 <a href="#">THÔNG TIN</a>
@@ -70,29 +70,14 @@
           </div>
         </div>
       </div>
-      <!-- product list -->
+      <!-- detail item -->
       <div id="section1">
-        <div id="productList"></div>
-        <!-- bat tat chinh sua -->
-        <div onclick="batTatEdit()" class="btn edit">Chỉnh sửa</div>
-        <!-- them -->
-        <div class="btn addProduct" onclick="openAddModal()">Thêm Sản Phẩm</div>
-        <div id="addModal" class="modal">
-          <div class="modalBox">
-            <h1>Thêm sản phẩm</h1>
-
-            <input id="productName" type="text" placeholder="Tên sản phẩm" />
-            <input min="0" id="productPrice" type="number" placeholder="Giá" />
-            <input
-              id="productImage"
-              type="text"
-              placeholder="URL ảnh (Google Drive, Imgur...)"
-            />
-            <textarea id="productDesc" placeholder="Mô tả"></textarea>
-
-            <button onclick="addProduct()">Lưu</button>
-            <button onclick="closeAddModal()">Hủy</button>
-          </div>
+        <div class="contact">
+          <h1>THÔNG TIN LIÊN HỆ</h1>
+          <p>Địa Chỉ: Ấp Cầu Đúc, Xã Nhị Long, Tỉnh Vĩnh Long</p>
+          <p>Email: nmk05022006@gmail.com</p>
+          <p>Điện Thoại: 0342459023</p>
+          <p>Fanpage: <a href="#!">https://www.facebook.com/coffea-shop</a></p>
         </div>
       </div>
     </main>
@@ -185,9 +170,5 @@
         </div>
       </div>
     </footer>
-    <script src="../js/lib.js"></script>
-    <script>
-      loadAllProduct();
-    </script>
   </body>
 </html>
