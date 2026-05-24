@@ -129,11 +129,16 @@ function loadAllProduct() {
 const addModal = document.getElementById("addModal");
 
 function openAddModal() {
-  addModal.classList.add("show"); //them class showw de no hien ra man hinh
+  addModal.classList.add("show"); //them class showw de no hien ra man hinh\
 }
 
 function closeAddModal() {
   addModal.classList.remove("show"); //nguoc lai cai tren
+  document.getElementById("productName").value = "";
+  document.getElementById("productPrice").value = "";
+  document.getElementById("productImage").value = "";
+  document.getElementById("productDesc").value = "";
+  currentEditId = null; //QUAN TRONG
 }
 //them san pham
 function addProduct() {
@@ -161,7 +166,7 @@ function addProduct() {
   // them
   else {
     const newProduct = {
-      id: Date.now(),
+      id: Date.now(), //tao id la gio hien tai de dam bao khong bi trung lap
       name: name,
       image: image,
       price: Number(price),
